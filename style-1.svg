@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="420" viewBox="0 0 520 420">
+<rect width="520" height="420" fill="#242628"/>
+<circle cx="260" cy="180" r="88" fill="#d1a27f"/>
+<path d="M174 172 C185 75 330 70 347 175 C315 130 210 130 174 172Z" fill="#2e241f"/>
+<path d="M195 240 C230 275 290 275 325 240" stroke="#553129" stroke-width="15" fill="none" stroke-linecap="round"/>
+<path d="M135 420 C155 305 210 275 260 275 C310 275 365 305 385 420Z" fill="#0e1011"/>
+<rect x="38" y="34" width="150" height="38" fill="#c5964f" opacity=".94"/>
+<text x="55" y="59" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#171717">FADE CUT</text>
+</svg>

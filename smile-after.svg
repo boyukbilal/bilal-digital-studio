@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520">
+<rect width="800" height="520" rx="26" fill="#eaf7f7"/>
+<ellipse cx="400" cy="290" rx="290" ry="140" fill="#d9878c"/>
+<ellipse cx="400" cy="280" rx="258" ry="112" fill="#7b3138"/>
+<path d="M170 270 C250 150 550 150 630 270 C560 190 240 190 170 270Z" fill="#e79b9f"/>
+<rect x="235" y="190" width="62" height="92" rx="22" fill="#ffffff" stroke="#d6d6d6" stroke-width="2" transform="rotate(0 266 236)"/><rect x="300" y="190" width="62" height="92" rx="22" fill="#ffffff" stroke="#d6d6d6" stroke-width="2" transform="rotate(0 331 236)"/><rect x="365" y="190" width="62" height="92" rx="22" fill="#ffffff" stroke="#d6d6d6" stroke-width="2" transform="rotate(0 396 236)"/><rect x="430" y="190" width="62" height="92" rx="22" fill="#ffffff" stroke="#d6d6d6" stroke-width="2" transform="rotate(0 461 236)"/><rect x="495" y="190" width="62" height="92" rx="22" fill="#ffffff" stroke="#d6d6d6" stroke-width="2" transform="rotate(0 526 236)"/><rect x="560" y="190" width="62" height="92" rx="22" fill="#ffffff" stroke="#d6d6d6" stroke-width="2" transform="rotate(0 591 236)"/>
+<path d="M205 330 C280 395 520 395 595 330" stroke="#ffb3b7" stroke-width="22" fill="none" stroke-linecap="round"/>
+<circle cx="690" cy="90" r="42" fill="#1aa6a6" opacity=".18"/>
+<text x="55" y="75" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#16343c">DEMO SMILE</text>
+</svg>

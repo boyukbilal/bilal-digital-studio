@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="560" viewBox="0 0 640 560">
+<rect width="640" height="560" fill="#dfd7ca"/>
+<circle cx="320" cy="205" r="104" fill="#d8aa88"/>
+<path d="M216 190 C225 80 415 75 425 190 C390 145 255 145 216 190Z" fill="#32251f"/>
+<path d="M250 270 C280 300 360 300 390 270" stroke="#32251f" stroke-width="25" fill="none" stroke-linecap="round"/>
+<circle cx="282" cy="215" r="7" fill="#292929"/><circle cx="358" cy="215" r="7" fill="#292929"/>
+<path d="M175 560 C185 385 250 335 320 335 C390 335 455 385 465 560Z" fill="#111315"/>
+<rect x="290" y="370" width="60" height="22" fill="#c5964f"/>
+<path d="M308 350 L320 405 L332 350" stroke="#c5964f" stroke-width="5" fill="none"/>
+<text x="34" y="520" fill="#6d624f" font-family="Arial, sans-serif" font-size="14">DEMO BARBER PORTRAIT</text>
+</svg>

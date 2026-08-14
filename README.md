@@ -1,22 +1,38 @@
-# Bilal Digital Studio Portfolio
+# LumaDent Dental Clinic — Portfolio Demo
 
-Bu paket ana portföy sitesini ve üç canlı demo projesini birlikte içerir.
+Diş kliniği / estetik diş hekimliği müşterilerine göstermek için hazırlanmış responsive tek sayfalık demo.
 
-## Projeler
-- Prime Detailing Studio
-- LumaDent Dental Clinic
-- NoirCut Barber Club
+## İçerik
+- Modern hero alanı
+- Hizmet kartları
+- Tedavi süreci
+- Önce / sonra demo alanı
+- Hekim profilleri
+- Hasta yorumları
+- Sık sorulan sorular
+- Randevu formu
+- WhatsApp iletişim butonu
+- Mobil uyumlu menü
+- Yerel SVG görseller
 
-## Açmak için
-Ana klasördeki `index.html` dosyasını tarayıcıda açın.
+## Çalıştırma
+`index.html` dosyasını tarayıcıda açmanız yeterli.
 
-## Yayına almadan önce değiştirilecekler
-- E-posta adresi
-- WhatsApp / telefon numarası
-- Marka adı istenirse
-- Gerçek sosyal medya bağlantıları
-- Form entegrasyonu
-- Gerçek referanslar geldikçe demo etiketlerinin güncellenmesi
+## Gerçek müşteriye uyarlarken
+- Klinik adını ve logosunu değiştirin.
+- Gerçek hekim bilgileri ve fotoğraflarını ekleyin.
+- Hasta görselleri için açık onay alın.
+- Telefon, e-posta, adres ve WhatsApp numarasını güncelleyin.
+- Formu gerçek backend / e-posta / CRM servisine bağlayın.
+- Google Maps konumunu ekleyin.
+- Sağlık alanındaki metinleri müşterinin onayına göre düzenleyin.
 
-## Yayınlama
-Statik olduğundan GitHub Pages, Netlify, Vercel, Cloudflare Pages veya klasik hosting üzerinde yayınlanabilir.
+## Satış paketi için önerilen kapsam
+- 1 sayfa kurumsal klinik sitesi
+- Mobil uyum
+- WhatsApp ve randevu formu
+- Hekim profilleri
+- Hizmet sayfaları veya kartları
+- SSS
+- Temel SEO başlık ve açıklamaları
+- Harita ve iletişim alanı

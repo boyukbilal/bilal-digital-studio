@@ -1,139 +1,312 @@
 <!doctype html>
 <html lang="tr">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Bilal Digital Studio — modern web tasarım ve otomasyon çözümleri.">
-<title>Bilal Digital Studio</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="LumaDent Dental Clinic — estetik diş hekimliği, implant, ortodonti ve genel diş sağlığı." />
+  <title>LumaDent Dental Clinic</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<header>
-  <div class="wrap nav">
-    <a class="brand" href="#home"><b>B</b><span>Bilal Digital<small>Web & Automation Studio</small></span></a>
-    <button id="menu" aria-label="Menüyü aç">☰</button>
-    <nav id="links">
-      <a href="#services">Hizmetler</a>
-      <a href="#projects">Projeler</a>
-      <a href="#about">Hakkımda</a>
-      <a class="pill" href="#contact">Proje Konuşalım</a>
-    </nav>
-  </div>
-</header>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="LumaDent ana sayfa">
+        <span class="brand-icon">L</span>
+        <span class="brand-copy"><strong>LumaDent</strong><small>Dental Clinic</small></span>
+      </a>
 
-<main>
-<section class="hero" id="home">
-  <div class="wrap hero-grid">
-    <div>
-      <p class="eyebrow">WEB DESIGN • AI • AUTOMATION</p>
-      <h1>İşletmeler için <em>modern</em>, hızlı ve satış odaklı web siteleri.</h1>
-      <p class="lead">Küçük ve orta ölçekli işletmeler için mobil uyumlu, güven veren ve müşteriyi aksiyona yönlendiren dijital deneyimler hazırlıyorum.</p>
-      <div class="actions">
-        <a class="btn primary" href="#projects">Projeleri İncele</a>
-        <a class="btn ghost" href="#contact">Teklif Al</a>
-      </div>
-      <div class="stats">
-        <span><strong>3</strong> sektör demosu</span>
-        <span><strong>100%</strong> mobil uyum</span>
-        <span><strong>Hızlı</strong> teslim odaklı</span>
-      </div>
+      <button class="menu-toggle" aria-label="Menüyü aç/kapat" aria-expanded="false">☰</button>
+
+      <nav class="nav-links">
+        <a href="#services">Hizmetler</a>
+        <a href="#doctors">Hekimler</a>
+        <a href="#results">Tedaviler</a>
+        <a href="#faq">SSS</a>
+        <a class="nav-cta" href="#appointment">Randevu Al</a>
+      </nav>
     </div>
+  </header>
 
-    <div class="showcase">
-      <div class="window">
-        <div class="dots"><i></i><i></i><i></i><small>bilaldigital.studio</small></div>
-        <div class="tiles">
-          <article class="tile orange"><small>Automotive</small><b>Prime Detailing</b></article>
-          <article class="tile teal"><small>Healthcare</small><b>LumaDent</b></article>
-          <article class="tile gold"><small>Barber</small><b>NoirCut</b></article>
-          <article class="tile dark"><small>Next</small><b>Your Brand</b></article>
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">MODERN DİŞ HEKİMLİĞİ • KAYSERİ</p>
+          <h1>Gülüşünüz için <span>kişiye özel</span> tedavi planı.</h1>
+          <p class="hero-text">
+            Estetik diş hekimliği, implant, ortodonti ve genel ağız sağlığı hizmetlerini
+            modern teknoloji ve hasta odaklı yaklaşımla sunuyoruz.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#appointment">Ücretsiz Ön Görüşme</a>
+            <a class="btn btn-secondary" href="https://wa.me/905555555555?text=Merhaba%2C%20randevu%20hakkında%20bilgi%20almak%20istiyorum." target="_blank" rel="noreferrer">WhatsApp</a>
+          </div>
+
+          <div class="hero-stats">
+            <div><strong>10+</strong><span>yıllık deneyim</span></div>
+            <div><strong>3.500+</strong><span>tamamlanan tedavi</span></div>
+            <div><strong>4.9/5</strong><span>hasta memnuniyeti</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img src="assets/clinic-hero.svg" alt="Modern dental klinik temsili" />
+          <div class="floating-card top">
+            <span class="mini-icon">✓</span>
+            <div><strong>Aynı gün randevu</strong><small>Uygunluk durumuna göre</small></div>
+          </div>
+          <div class="floating-card bottom">
+            <span class="mini-icon">24</span>
+            <div><strong>Hızlı iletişim</strong><small>WhatsApp destek hattı</small></div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<section class="tech">
-  <div class="wrap tech-row"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>AI Tools</span><span>Responsive Design</span></div>
-</section>
-
-<section class="section" id="services">
-  <div class="wrap">
-    <p class="eyebrow">HİZMETLER</p>
-    <h2>Sadece güzel görünen değil, iş yapan web siteleri.</h2>
-    <div class="cards">
-      <article><span>01</span><h3>Kurumsal Web Sitesi</h3><p>Markanı profesyonel gösteren mobil uyumlu web sitesi.</p><ul><li>Responsive tasarım</li><li>WhatsApp & iletişim</li><li>Temel SEO</li></ul></article>
-      <article><span>02</span><h3>Landing Page</h3><p>Kampanya, ürün veya hizmet için dönüşüm odaklı tek sayfa.</p><ul><li>Güçlü CTA</li><li>Hızlı yükleme</li><li>Satış odaklı yapı</li></ul></article>
-      <article><span>03</span><h3>Basit Otomasyonlar</h3><p>Form, randevu ve iletişim akışlarını kolaylaştıran sistemler.</p><ul><li>Form entegrasyonu</li><li>WhatsApp akışı</li><li>AI destekli süreçler</li></ul></article>
-    </div>
-  </div>
-</section>
-
-<section class="section projects" id="projects">
-  <div class="wrap">
-    <p class="eyebrow green">SEÇİLİ PROJELER</p>
-    <h2>Farklı sektörler, farklı görsel dil.</h2>
-
-    <article class="project p-dark">
-      <div class="copy">
-        <small>AUTO DETAILING</small><h3>Prime Detailing Studio</h3>
-        <p>Premium koyu tema, hizmet paketleri, önce/sonra alanı, yorumlar ve WhatsApp randevusu.</p>
-        <a href="projects/prime-detailing/index.html" target="_blank">Canlı demoyu aç ↗</a>
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <span>Dijital Röntgen</span>
+        <span>Şeffaf Tedavi Planı</span>
+        <span>Sterilizasyon Protokolü</span>
+        <span>Hasta Odaklı Yaklaşım</span>
       </div>
-      <div class="preview orange-bg"><div class="browser"><b>PRIME DETAILING</b><h4>Showroom<br>parlaklığı.</h4><span>Randevu Al</span></div></div>
-    </article>
+    </section>
 
-    <article class="project p-light">
-      <div class="copy">
-        <small>DENTAL CLINIC</small><h3>LumaDent Dental Clinic</h3>
-        <p>Güven veren sağlık sektörü tasarımı; hekim profilleri, SSS ve randevu formu.</p>
-        <a href="projects/lumadent-dental/index.html" target="_blank">Canlı demoyu aç ↗</a>
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">HİZMETLER</p>
+          <h2>İhtiyacınıza uygun kapsamlı diş sağlığı hizmetleri</h2>
+          <p>Her tedavi öncesinde detaylı muayene ve kişiye özel planlama yapılır.</p>
+        </div>
+
+        <div class="cards six">
+          <article class="service-card">
+            <span class="service-num">01</span>
+            <h3>İmplant Tedavisi</h3>
+            <p>Eksik dişlerin fonksiyon ve estetiğini destekleyen modern implant çözümleri.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-num">02</span>
+            <h3>Gülüş Tasarımı</h3>
+            <p>Yüz oranları, diş formu ve renk uyumuna göre kişiselleştirilmiş estetik planlama.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-num">03</span>
+            <h3>Zirkonyum Kaplama</h3>
+            <p>Doğal görünüme yakın estetik restorasyon seçenekleri ve dijital ölçüm desteği.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-num">04</span>
+            <h3>Ortodonti</h3>
+            <p>Tel tedavisi ve uygun vakalarda şeffaf plak çözümleriyle hizalama desteği.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-num">05</span>
+            <h3>Diş Beyazlatma</h3>
+            <p>Klinik ortamında kontrollü ve profesyonel beyazlatma uygulamaları.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-num">06</span>
+            <h3>Genel Diş Sağlığı</h3>
+            <p>Dolgu, kanal tedavisi, diş taşı temizliği ve rutin kontroller.</p>
+          </article>
+        </div>
       </div>
-      <div class="preview teal-bg"><div class="browser dental"><b>LUMADENT</b><h4>Kişiye özel<br>gülüş planı.</h4><span>Randevu Al</span></div></div>
-    </article>
+    </section>
 
-    <article class="project p-gold">
-      <div class="copy">
-        <small>BARBER SHOP</small><h3>NoirCut Barber Club</h3>
-        <p>Premium karanlık tema; stil galerisi, ekip, fiyat listesi ve randevu sistemi.</p>
-        <a href="projects/noircut-barber/index.html" target="_blank">Canlı demoyu aç ↗</a>
+    <section class="section soft" id="results">
+      <div class="container result-grid">
+        <div class="result-copy">
+          <p class="eyebrow">TEDAVİ YAKLAŞIMI</p>
+          <h2>Önce dinliyoruz, sonra birlikte planlıyoruz.</h2>
+          <p>
+            Tedavi kararlarını yalnızca klinik ihtiyaçlara göre değil; beklentinizi, zaman planınızı
+            ve bütçenizi de dikkate alarak şekillendiriyoruz.
+          </p>
+          <div class="steps">
+            <div><span>1</span><p><strong>Muayene</strong><small>İhtiyaçların belirlenmesi</small></p></div>
+            <div><span>2</span><p><strong>Planlama</strong><small>Seçeneklerin açıklanması</small></p></div>
+            <div><span>3</span><p><strong>Uygulama</strong><small>Kontrollü tedavi süreci</small></p></div>
+            <div><span>4</span><p><strong>Takip</strong><small>Kontrol ve bakım önerileri</small></p></div>
+          </div>
+        </div>
+
+        <div class="before-after-wrap">
+          <div class="ba-head">
+            <span>DEMO TEDAVİ SONUCU</span>
+            <small>Gerçek projede hasta onaylı görseller kullanılmalıdır.</small>
+          </div>
+          <div class="before-after">
+            <div class="ba-card">
+              <span class="label">ÖNCE</span>
+              <img src="assets/smile-before.svg" alt="Tedavi öncesi gülüş temsili" />
+            </div>
+            <div class="ba-card">
+              <span class="label after">SONRA</span>
+              <img src="assets/smile-after.svg" alt="Tedavi sonrası gülüş temsili" />
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="preview gold-bg"><div class="browser barber"><b>NOIRCUT</b><h4>Tarzını<br>detaylarda göster.</h4><span>Randevu Al</span></div></div>
-    </article>
-  </div>
-</section>
+    </section>
 
-<section class="section about" id="about">
-  <div class="wrap about-grid">
-    <div class="monogram">B</div>
-    <div>
-      <p class="eyebrow">HAKKIMDA</p>
-      <h2>Teknik bilgiyi pratik çözüme dönüştürüyorum.</h2>
-      <p>HTML, Python ve yapay zekâ araçlarıyla çalışan; hazır şablonları müşteriye özel projelere dönüştürme deneyimine sahip bağımsız bir geliştiriciyim.</p>
-      <div class="chips"><span>HTML / CSS</span><span>Python</span><span>AI Tools</span><span>English C1</span></div>
+    <section class="section" id="doctors">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">HEKİMLERİMİZ</p>
+          <h2>Uzmanlık alanlarına göre doğru hekimle eşleşin</h2>
+        </div>
+
+        <div class="doctor-grid">
+          <article class="doctor-card">
+            <img src="assets/doctor-1.svg" alt="Demo diş hekimi portresi" />
+            <div class="doctor-info">
+              <p class="role">Restoratif Diş Tedavisi</p>
+              <h3>Dt. Elif Kaya</h3>
+              <p>Estetik restorasyonlar, gülüş tasarımı ve genel diş sağlığı.</p>
+            </div>
+          </article>
+          <article class="doctor-card">
+            <img src="assets/doctor-2.svg" alt="Demo diş hekimi portresi" />
+            <div class="doctor-info">
+              <p class="role">Ağız, Diş ve Çene Cerrahisi</p>
+              <h3>Dr. Mert Arslan</h3>
+              <p>İmplant cerrahisi ve ileri cerrahi tedavi planlaması.</p>
+            </div>
+          </article>
+          <article class="doctor-card">
+            <img src="assets/doctor-3.svg" alt="Demo diş hekimi portresi" />
+            <div class="doctor-info">
+              <p class="role">Ortodonti</p>
+              <h3>Dr. Selin Demir</h3>
+              <p>Şeffaf plak ve sabit ortodontik tedavi planlaması.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="container">
+        <div class="section-head light-head">
+          <p class="eyebrow">HASTA DENEYİMLERİ</p>
+          <h2>Kendini güvende hissettiren bir klinik deneyimi</h2>
+        </div>
+        <div class="cards three">
+          <blockquote class="review">
+            <div class="stars">★★★★★</div>
+            <p>“Tedavi seçeneklerini çok net anlattılar. Sürecin her adımında ne yapılacağını biliyordum.”</p>
+            <footer>Ayşe T. — İmplant tedavisi</footer>
+          </blockquote>
+          <blockquote class="review">
+            <div class="stars">★★★★★</div>
+            <p>“Klinik çok düzenli ve ekip çok ilgiliydi. Gülüş tasarımı sonucundan çok memnunum.”</p>
+            <footer>Berk A. — Gülüş tasarımı</footer>
+          </blockquote>
+          <blockquote class="review">
+            <div class="stars">★★★★★</div>
+            <p>“Randevu süreci hızlıydı. Ortodonti planım detaylı şekilde anlatıldı.”</p>
+            <footer>İrem K. — Ortodonti</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container faq-grid">
+        <div>
+          <p class="eyebrow">SIK SORULAN SORULAR</p>
+          <h2>Tedavi öncesi merak edilenler</h2>
+          <p class="muted">Bu alan gerçek müşterinin en sık aldığı sorulara göre kolayca özelleştirilebilir.</p>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>İlk muayenede neler yapılıyor?</summary>
+            <p>Ağız içi değerlendirme yapılır, gerekli görülürse görüntüleme istenir ve tedavi seçenekleri anlatılır.</p>
+          </details>
+          <details>
+            <summary>İmplant tedavisi herkese uygulanabilir mi?</summary>
+            <p>Uygunluk; kemik yapısı, genel sağlık durumu ve klinik değerlendirmeye göre belirlenir.</p>
+          </details>
+          <details>
+            <summary>Diş beyazlatmanın etkisi ne kadar sürer?</summary>
+            <p>Sonuçların kalıcılığı kişisel alışkanlıklar, ağız bakımı ve beslenme düzenine göre değişebilir.</p>
+          </details>
+          <details>
+            <summary>Randevu nasıl oluşturabilirim?</summary>
+            <p>Formu doldurabilir, telefonla arayabilir veya WhatsApp üzerinden bize ulaşabilirsiniz.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section appointment" id="appointment">
+      <div class="container appointment-grid">
+        <div>
+          <p class="eyebrow">RANDEVU</p>
+          <h2>İlk görüşmenizi planlayalım.</h2>
+          <p>
+            Formu doldurun. Demo projede form veri göndermez; gerçek müşteri projesinde e-posta,
+            WhatsApp veya CRM sistemine bağlanabilir.
+          </p>
+          <div class="contact-stack">
+            <a href="tel:+905555555555">+90 555 555 55 55</a>
+            <a href="mailto:hello@lumadent.demo">hello@lumadent.demo</a>
+            <span>Kayseri / Türkiye — Demo adres</span>
+          </div>
+        </div>
+
+        <form class="appointment-form" onsubmit="return handleForm(event)">
+          <div class="form-row">
+            <label>Ad Soyad<input name="name" type="text" placeholder="Adınız" required></label>
+            <label>Telefon<input name="phone" type="tel" placeholder="05xx xxx xx xx" required></label>
+          </div>
+          <label>İlgilendiğiniz hizmet
+            <select name="service">
+              <option>Genel Muayene</option>
+              <option>İmplant Tedavisi</option>
+              <option>Gülüş Tasarımı</option>
+              <option>Zirkonyum Kaplama</option>
+              <option>Ortodonti</option>
+              <option>Diş Beyazlatma</option>
+            </select>
+          </label>
+          <label>Mesaj<textarea name="message" rows="4" placeholder="Kısaca belirtmek istediğiniz konu..."></textarea></label>
+          <button class="btn btn-primary" type="submit">Randevu Talebi Gönder</button>
+          <p id="form-note" class="form-note">Demo formudur; veri kaydedilmez.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <a class="floating-wa" href="https://wa.me/905555555555?text=Merhaba%2C%20LumaDent%20randevusu%20hakkında%20bilgi%20almak%20istiyorum." target="_blank" rel="noreferrer">WA</a>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="brand footer-brand">
+        <span class="brand-icon">L</span>
+        <span class="brand-copy"><strong>LumaDent</strong><small>Dental Clinic</small></span>
+      </div>
+      <div>
+        <strong>Hızlı Menü</strong>
+        <a href="#services">Hizmetler</a>
+        <a href="#doctors">Hekimler</a>
+        <a href="#faq">SSS</a>
+      </div>
+      <div>
+        <strong>İletişim</strong>
+        <span>+90 555 555 55 55</span>
+        <span>hello@lumadent.demo</span>
+      </div>
     </div>
-  </div>
-</section>
-
-<section class="section contact" id="contact">
-  <div class="wrap contact-grid">
-    <div>
-      <p class="eyebrow">PROJE BAŞLATALIM</p>
-      <h2>İşletmeniz için güçlü bir dijital vitrin oluşturalım.</h2>
-      <p>Bu demo formu yayına alırken WhatsApp, e-posta veya CRM sistemine bağlanabilir.</p>
-      <a class="mail" href="mailto:hello@bilaldigital.demo">hello@bilaldigital.demo</a>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> LumaDent Dental Clinic</span>
+      <span>Portfolio Demo</span>
     </div>
-    <form onsubmit="return demoForm(event)">
-      <div class="row"><label>Ad Soyad<input required placeholder="Adınız"></label><label>İşletme<input placeholder="İşletme adı"></label></div>
-      <label>İhtiyaç<select><option>Kurumsal Web Sitesi</option><option>Landing Page</option><option>Site Yenileme</option><option>Basit Otomasyon</option></select></label>
-      <label>Mesaj<textarea rows="5" placeholder="Projenizi kısaca anlatın..."></textarea></label>
-      <button class="btn primary">Talep Gönder</button>
-      <small id="note">Demo formudur; veri gönderilmez.</small>
-    </form>
-  </div>
-</section>
-</main>
+  </footer>
 
-<footer><div class="wrap foot"><span>© <b id="year"></b> Bilal Digital Studio</span><span>Portfolio</span></div></footer>
-<script src="script.js"></script>
-</body></html>
+  <script src="script.js"></script>
+</body>
+</html>

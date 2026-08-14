@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="760" viewBox="0 0 900 760">
+<defs>
+ <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+   <stop offset="0" stop-color="#f8ffff"/><stop offset="1" stop-color="#d8f2f1"/>
+ </linearGradient>
+ <linearGradient id="chair" x1="0" x2="1">
+   <stop offset="0" stop-color="#1aa6a6"/><stop offset="1" stop-color="#0b777b"/>
+ </linearGradient>
+</defs>
+<rect width="900" height="760" rx="38" fill="url(#bg)"/>
+<circle cx="720" cy="140" r="130" fill="#1aa6a6" opacity=".08"/>
+<rect x="90" y="105" width="720" height="520" rx="32" fill="#ffffff" stroke="#d7e8ea" stroke-width="3"/>
+<rect x="130" y="145" width="220" height="160" rx="22" fill="#eaf7f7"/>
+<rect x="560" y="145" width="210" height="160" rx="22" fill="#edf8f8"/>
+<path d="M410 470 C408 405 450 365 528 365 C592 365 639 399 653 455 L670 530 L375 530Z" fill="url(#chair)"/>
+<rect x="500" y="307" width="22" height="120" rx="10" fill="#9bb9bd"/>
+<circle cx="511" cy="298" r="38" fill="#f4ffff" stroke="#b8d2d5" stroke-width="6"/>
+<path d="M511 260 V220 C511 185 548 169 581 181" stroke="#6c9398" stroke-width="15" fill="none" stroke-linecap="round"/>
+<ellipse cx="490" cy="541" rx="185" ry="25" fill="#153a42" opacity=".12"/>
+<rect x="150" y="355" width="130" height="185" rx="18" fill="#f4fafb" stroke="#d9e8ea" stroke-width="3"/>
+<rect x="171" y="380" width="88" height="12" rx="6" fill="#1aa6a6" opacity=".65"/>
+<rect x="171" y="410" width="72" height="12" rx="6" fill="#b8d6d8"/>
+<rect x="171" y="440" width="82" height="12" rx="6" fill="#b8d6d8"/>
+<circle cx="240" cy="210" r="42" fill="#ffffff" stroke="#b8d6d8" stroke-width="4"/>
+<path d="M222 206 C222 190 232 182 242 182 C252 182 262 190 262 206 C262 222 252 241 242 251 C232 241 222 222 222 206Z" fill="#1aa6a6" opacity=".85"/>
+<text x="125" y="680" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#16343c">LumaDent Dental Clinic</text>
+<text x="125" y="713" font-family="Arial, sans-serif" font-size="16" fill="#6c858b">Modern clinic portfolio visual</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="560" viewBox="0 0 640 560">
+<rect width="640" height="560" fill="#e8f5f5"/>
+<circle cx="320" cy="210" r="105" fill="#efc4a6"/>
+<path d="M220 195 C230 90 414 70 430 200 C390 160 270 160 220 195Z" fill="#5a4034"/>
+<circle cx="282" cy="215" r="7" fill="#24343a"/><circle cx="358" cy="215" r="7" fill="#24343a"/>
+<path d="M290 255 C310 270 330 270 350 255" stroke="#9b5d55" stroke-width="7" fill="none" stroke-linecap="round"/>
+<path d="M170 560 C190 390 255 340 320 340 C385 340 450 390 470 560Z" fill="#1aa6a6"/>
+<path d="M270 350 L320 418 L370 350" fill="#ffffff" opacity=".95"/>
+<rect x="295" y="392" width="50" height="18" rx="9" fill="#d2e5e8"/>
+<circle cx="320" cy="424" r="10" fill="#b8cfd2"/>
+<text x="42" y="505" fill="#16343c" font-family="Arial, sans-serif" font-size="16">DEMO DOCTOR PORTRAIT</text>
+</svg>

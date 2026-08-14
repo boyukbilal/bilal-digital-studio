@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+<defs>
+  <linearGradient id="g" x1="0" x2="1">
+    <stop offset="0" stop-color="#252d36"/><stop offset="0.55" stop-color="#0b0e12"/><stop offset="1" stop-color="#303944"/>
+  </linearGradient>
+  <linearGradient id="a" x1="0" x2="1">
+    <stop offset="0" stop-color="#ff5a1f"/><stop offset="1" stop-color="#ff9b55"/>
+  </linearGradient>
+</defs>
+<rect width="900" height="560" rx="34" fill="#101419"/>
+<circle cx="735" cy="110" r="110" fill="#ff5a1f" opacity=".08"/>
+<ellipse cx="420" cy="270" rx="250" ry="42" fill="#ff5a1f" opacity=".12"/>
+<path d="M173 338 C230 296 284 258 357 239 L534 220 C594 216 652 243 714 302 L776 320 C801 328 818 351 818 381 L817 402 L121 402 L120 371 C121 352 135 341 173 338Z" fill="url(#g)" stroke="#46515e" stroke-width="3"/>
+<path d="M313 261 L377 240 L519 228 C559 229 598 247 632 277 L309 277Z" fill="#11161d" stroke="#39424d" stroke-width="3"/>
+<path d="M376 243 L405 232 L459 229 L459 276 L345 276Z" fill="#27313a"/>
+<path d="M473 228 L518 225 C554 228 586 243 616 271 L473 274Z" fill="#202832"/>
+<path d="M154 341 L265 324 L246 358 L146 363Z" fill="url(#a)" opacity=".9"/>
+<path d="M696 303 L765 319 L777 344 L700 336Z" fill="#d9f2ff" opacity=".82"/>
+<rect x="362" y="300" width="155" height="8" rx="4" fill="#ff5a1f" opacity=".75"/>
+<circle cx="271" cy="398" r="68" fill="#080a0d" stroke="#2d343d" stroke-width="6"/>
+<circle cx="271" cy="398" r="33" fill="#6f7883"/><circle cx="271" cy="398" r="14" fill="#171b20"/>
+<circle cx="673" cy="398" r="68" fill="#080a0d" stroke="#2d343d" stroke-width="6"/>
+<circle cx="673" cy="398" r="33" fill="#6f7883"/><circle cx="673" cy="398" r="14" fill="#171b20"/>
+<path d="M115 406 H823" stroke="#39414b" stroke-width="4" opacity=".6"/>
+<text x="60" y="82" fill="#f4f7fa" font-family="Arial, sans-serif" font-size="25" font-weight="700">PRIME DETAILING</text>
+<text x="60" y="114" fill="#9aa6b2" font-family="Arial, sans-serif" font-size="14">Portfolio Demo Visual</text>
+</svg>

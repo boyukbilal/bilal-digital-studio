@@ -1,5 +1,20 @@
-const menu=document.getElementById("menu"),links=document.getElementById("links");
-menu.addEventListener("click",()=>links.classList.toggle("open"));
-document.querySelectorAll("#links a").forEach(a=>a.addEventListener("click",()=>links.classList.remove("open")));
-document.getElementById("year").textContent=new Date().getFullYear();
-function demoForm(e){e.preventDefault();document.getElementById("note").textContent="Demo formu çalışıyor. Gerçek projede WhatsApp, e-posta veya CRM'e bağlanabilir.";return false;}
+const toggle = document.querySelector('.menu-toggle');
+const nav = document.querySelector('.nav-links');
+
+toggle?.addEventListener('click', () => {
+  const open = nav.classList.toggle('open');
+  toggle.setAttribute('aria-expanded', String(open));
+});
+
+document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', () => nav.classList.remove('open'));
+});
+
+document.getElementById('year').textContent = new Date().getFullYear();
+
+function handleForm(event) {
+  event.preventDefault();
+  const note = document.getElementById('form-note');
+  note.textContent = 'Demo formu çalışıyor. Gerçek projede bu talep e-posta, WhatsApp veya CRM sistemine gönderilebilir.';
+  return false;
+}
